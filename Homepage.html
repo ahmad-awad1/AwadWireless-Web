@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,9 +15,9 @@
 
 </head>
 
-<body>
-  <!-- HEADER -->
-  <header id="header">
+
+<body> 
+<header id="header">
     <div class="flex-column">
 
       <div class="header-top flex-row">
@@ -27,7 +27,6 @@
           <a>www.awadwireless.com</a>
           <address><a>3023 Central Ave, Suit #F Charlotte, NC 28205</a></address>
         </div>
-        <!-- the others -->
 
         <div>
           <a href="contact.html"><i class="fa-brands fa-facebook-f"></i></a> - <a href="contact.html"><i
@@ -129,11 +128,31 @@
 
 
 
-  </header>
+  </header> 
+-------
+  <header>
+    <div class="top-bar">
+      <span>Everyday 10 AM–7 PM</span>
+      <a href="tel:9804301213">980‑430‑1213</a>
+      <a href="mailto:[email protected]">[email protected]</a>
+    </div>
+    <div class="logo-nav">
+      <img src="img/logo.png" alt="My Logo" class="logo">
+      <nav>
+        <button id="hamburger">☰</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Repair</a></li>
+          <li><a href="tradein.html">Trade-In</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header> -->
 
-  <!-- Main -->
+<!--  
   <main></main>
-  <!-- Footer -->
+ 
   <footer>
     <nav>
       <ul class="flex-row footer-all">
@@ -185,6 +204,296 @@
 
 
 
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <link rel="stylesheet" href="css/HomepageStyles.css">
+  <title>AwadWireless - Home</title>
+  <script src="js/HomepageJS.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div>Open Daily 10 AM – 7 PM</div>
+    <div class="contact-links">
+      <a href="tel:9804301213">Call: 980-430-1213</a>
+      <a href="mailto:info@myrepairshop.com">Email Us</a>
+    </div>
+  </div>
+
+  <!-- Header with Logo & Nav -->
+  <header>
+    <div class="logo-nav">
+      <img src="images/AwadWirelessLogo.png" alt="My Repair Shop Logo" class="logo" />
+      <nav>
+        <button id="hamburger">☰</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-slider">
+      <div class="slide active" style="background-image: url('../images/camra.png');"></div>
+      <!-- <div class="slide" style="background-image: url('../img/hero2.jpg');"></div> -->
+      <div class="slide" style="background-image: url('../images/Backglass.png');"></div>
+    </div>
+    <div class="hero-content">
+      <h1>Fast & Reliable Phone Repairs</h1>
+      <p>iPhone, Android, iPad & More</p>
+      <a href="contact.html" class="hero-button">Get a Quote</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+
+      <a href="services/IPhone-repair.html" class="service-card">
+        <div class="card-image">
+          <img src="images/iphone.png" alt="iPhone Repair" />
+        </div>
+        <h3>iPhone Repair</h3>
+        <p>Whether you have the latest iPhone 16 or an older model like the iPhone 6, we can fix any
+          issue. Our experts provide top-notch iPhone repair, including screen replacements, back glass repair, battery
+          replacement, camera fixes (front & rear), water
+          damage treatment, charging port repairs, and more. </p>
+      </a>
+
+      <a href="services/Samsung-repair.html" class="service-card">
+        <div class="card-image">
+          <img src="images/samsung.jpeg" alt="Android Repair" />
+        </div>
+        <h3>Samsung Repair</h3>
+        <p>We specialize in repairing all Samsung Galaxy models, from the latest S or A or Note series to older devices.
+          Whether your phone has a shattered screen, a failing battery, a broken charging port, or camera issues, our
+          Samsung repair services are fast, affordable, and reliable.
+
+        </p>
+      </a>
+
+      <a href="services/IPad-repair.html" class="service-card">
+        <div class="card-image">
+          <img src="images/Ipad.png" alt="iPad Repair" />
+        </div>
+
+        <h3>iPad Repair</h3>
+        <p>Got a broken iPad Pro, iPad Air, or iPad Mini? Don’t worry — our technicians are experienced in providing the
+          most reliable iPad repair. We handle cracked screens, charging problems, battery replacement,
+          camera issues, and more, so you can get your tablet working like new.</p>
+      </a>
+
+      <a href="services/Computer-repair.html" class="service-card">
+        <div class="card-image">
+          <img src="images/computer.png" alt="Computer Repair" />
+        </div>
+        <h3>Computer Repair</h3>
+        <p>At Awad Wireless, we offer comprehensive computer repair in Charlotte, NC, including screen replacement,
+          keyboard repair, battery replacement, RAM and memory upgrades, and more.</p>
+      </a>
+
+      <a href="services/Applewatch-repair.html" class="service-card">
+        <div class="card-image">
+          <img src="images/applewatch.jpeg" alt="Apple Watch Repair" />
+        </div>
+        <h3>Apple Watch Repair</h3>
+        <p>Stay connected and track your health without a hitch! Our Apple Watch repair in Charlotte, NC, covers all
+          models. We fix cracked screens, battery issues, buttons, water damage, and more, restoring your watch to full
+          functionality quickly.</p>
+      </a>
+
+      <a href="services/Android-repair.html" class="service-card">
+        <div class="card-image">
+          <img src="images/android.jpg" alt="Android Repair" />
+        </div>
+        <h3>Android Repair</h3>
+        <p>We provide a complete range of Android phone repair in Charlotte, NC, covering brands like Motorola, Nokia,
+          OnePlus, Google Pixel, and more. Whether it’s a dead battery, faulty charging port, shattered screen, or
+          broken camera, our team can handle it all.
+
+        </p>
+      </a>
+
+      <a href="services/Unlock.html" class="service-card">
+        <div class="card-image">
+          <img src="images/unlock.png" alt="Unlock" />
+        </div>
+        <h3>Unlock</h3>
+        <p>Bought a phone with carrier restrictions? Our professional unlocking services in Charlotte, NC, can free your
+          device so you can use it with any compatible carrier. We handle iPhones, Samsung devices, and most Android
+          models.</p>
+      </a>
+
+    </div>
+  </section>
+
+
+
+  <section class="activations">
+    <h2>Activations & Monthly Payments</h2>
+    <div class="activations-grid">
+      <a href="activations.html" class="activation-card">
+        <img src="images/activate.png" alt="Activation Services" />
+        <h3>New Activations</h3>
+        <p>Activate prepaid phone lines instantly</p>
+      </a>
+      <a href="payments.html" class="activation-card">
+        <img src="images/payment.png" alt="Monthly Payments" />
+        <h3>Pay Monthly Bills</h3>
+        <p>Quick & easy prepaid plan payments</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="activations">
+    <h2>Activations & Monthly Payments</h2>
+    <div class="activations-grid">
+      <a href="services/activations.html" class="activation-card">
+        <div class="card-image">
+          <img src="images/activate.png" alt="Activation Services"/>
+        </div>
+        <h3>New Activations</h3>
+        <p>Activate prepaid phone lines instantly.</p>
+      </a>
+      <a href="services/payments.html" class="activation-card">
+        <div class="card-image">
+          <img src="images/payment.png" alt="Monthly Payments"/>
+        </div>
+        <h3>Pay Monthly Bills</h3>
+        <p>Quick & easy prepaid plan payments.</p>
+      </a>
+    </div>
+  </section>
+  
+
+
+  <section class="accessories">
+    <h2>Accessories</h2>
+    <div class="accessories-content">
+      <div class="accessories-text">
+        <p>We carry a wide range of accessories, including:</p>
+        <ul>
+          <li>Cases</li>
+          <li>Chargers & Cables</li>
+          <li>Screen Protectors</li>
+          <li>GPS Holders</li>
+          <li>Apple Watch Accessories</li>
+          <li>Tablet Accessories</li>
+          <li>Portable & Wireless Chargers</li>
+          <li>Speakers & Headphones</li>
+        </ul>
+        <a href="accessories.html" class="accessories-button">Shop Accessories</a>
+      </div>
+      <div class="accessories-images">
+        <img src="images/case.png" alt="Phone Cases">
+        <img src="images/charger.png" alt="Chargers">
+        <img src="images/speckers.jpeg" alt="Speakers">
+      </div>
+    </div>
+  </section>
+
+  <section class="accessories-hero">
+    <div class="accessories-hero-container">
+      <a href="accessories.html" class="accessories-center-text">Accessories</a>
+  
+      <div class="accessory-item top-left">
+        <img src="images/case.png" alt="Cases">
+        <p>Cases</p>
+      </div>
+      <div class="accessory-item top-right">
+        <img src="images/charger.png" alt="Chargers">
+        <p>Chargers</p>
+      </div>
+      <div class="accessory-item bottom-left">
+        <img src="images/screenprotect.jpeg" alt="Screen Protectors">
+        <p>Screen Protectors</p>
+      </div>
+      <div class="accessory-item bottom-right">
+        <img src="images/speckers.jpeg" alt="Speakers">
+        <p>Speakers</p>
+      </div>
+      <div class="accessory-item left-center">
+        <img src="images/apple-watch.jpg" alt="Apple Watch Accessories">
+        <p>Apple Watch</p>
+      </div>
+      <div class="accessory-item right-center">
+        <img src="images/tabletcase.png" alt="Tablet Accessories">
+        <p>Tablet Accessories</p>
+      </div>
+      
+    
+  </section>
+  
+  
+  
+
+  <section class="buy-phone">
+    <h2>Buy Phone</h2>
+    <div class="buy-phone-content">
+      <p>We sell a variety of new and used phones, including:</p>
+      <ul>
+        <li>iPhone</li>
+        <li>Samsung</li>
+        <li>Motorola</li>
+        <li>OnePlus</li>
+        <li>Google Pixel</li>
+        <li>And more!</li>
+      </ul>
+      <a href="buy-phone.html" class="buy-phone-button">Shop Phones</a>
+    </div>
+  </section>
+  
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-container">
+      <div class="testimonial active">"Amazing service and prices. Fixed my phone in under 30 minutes!" – Alex</div>
+      <div class="testimonial">"Highly recommend! Professional and fast." – Maria</div>
+      <div class="testimonial">"They saved my phone and my day. Thanks!" – John</div>
+    </div>
+    <div class="testimonial-controls">
+      <button id="prev">‹</button>
+      <button id="next">›</button>
+    </div>
+  </section>
+
+  <!-- Contact / Promo -->
+  <section class="promo">
+    <h2>Get 10% Off Your First Repair!</h2>
+    <form class="promo-form">
+      <input type="email" placeholder="Enter your email" required />
+      <button type="submit">Claim Discount</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 My Repair Shop. All rights reserved.</p>
+      <p>123 Main St, Charlotte, NC</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>

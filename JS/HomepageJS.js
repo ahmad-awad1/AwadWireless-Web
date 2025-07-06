@@ -70,4 +70,34 @@
 //     }
 //   });
 // });
+// Navigation toggle
+document.getElementById('hamburger').addEventListener('click', () => {
+    document.querySelector('nav ul').classList.toggle('active');
+  });
+  
+  // Testimonials carousel
+  let currentTestimonial = 0;
+  const testimonials = document.querySelectorAll('.testimonial');
+  const showTestimonial = index => {
+    testimonials.forEach((el, i) => el.classList.toggle('active', i === index));
+  };
+  
+  document.getElementById('prev').addEventListener('click', () => {
+    currentTestimonial = (currentTestimonial - 1 + testimonials.length) % testimonials.length;
+    showTestimonial(currentTestimonial);
+  });
+  
+  document.getElementById('next').addEventListener('click', () => {
+    currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+    showTestimonial(currentTestimonial);
+  });
+  // Hero slider
+let currentSlide = 0;
+const slides = document.querySelectorAll('.slide');
+const changeSlide = () => {
+  slides[currentSlide].classList.remove('active');
+  currentSlide = (currentSlide + 1) % slides.length;
+  slides[currentSlide].classList.add('active');
+};
+setInterval(changeSlide, 5000); // Change slide every 5 seconds
 
